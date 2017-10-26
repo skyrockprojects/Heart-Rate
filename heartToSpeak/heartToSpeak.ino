@@ -26,7 +26,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  // Receive data from sensor
+  // Receive sensor data from A0
     beats= analogRead(0);
     
     char result_a[5] = "";
