@@ -951,7 +951,7 @@ String inData = "";
 int ESP8266::httpGet(char* beats)
 {
   //char* request =  "GET /update?api_key=SK197NMLSHUNN6YL&field1=90\r\n";
-
+  // you can change your API KEY here, and because you want to send data, you are going to use GET from "Update a Channel Feed"
   char* head = "GET /update?api_key=SK197NMLSHUNN6YL&field1=";
   char* tail = "\r\n";
   char* request = (char *) malloc(1+strlen(head)+strlen(beats)+strlen(tail));
